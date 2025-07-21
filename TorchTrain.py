@@ -123,7 +123,7 @@ def train():
 
         if val_loss < best_val_loss:
             best_val_loss = val_loss
-            torch.save(model.state_dict(), 'best_model.pth')
+            torch.save(model.state_dict(), 'bestmodel.pth')
             early_stop_counter = 0
         else:
             early_stop_counter += 1

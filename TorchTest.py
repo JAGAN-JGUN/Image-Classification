@@ -62,7 +62,7 @@ def evaluate_model():
 
     num_classes = len(dataset.classes)
     model = CNNModel(num_classes)
-    model.load_state_dict(torch.load('best_model.pth', map_location=device))
+    model.load_state_dict(torch.load('bestmodel.pth', map_location=device))
     model.to(device)
     model.eval()
 
