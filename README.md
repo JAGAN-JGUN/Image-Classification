@@ -1,12 +1,12 @@
-# Waste Material Classification - Model Training
+# Image Classification - Model Training
 
-This repository contains the training pipeline for a **waste classification** system using deep learning. It includes implementations in **both TensorFlow and PyTorch**, focusing on classifying waste images into categories such as plastic, metal, glass, etc.
+This repository contains the training pipeline for a **Intel Image classification** system using deep learning. It includes implementations in **both TensorFlow and PyTorch**, focusing on classifying images into categories such as buildings, forest, mountains etc.
 
 ---
 
 ## Objective
 
-To build and compare robust CNN models using TensorFlow and PyTorch for waste classification using image data. This forms part of a portfolio-ready end-to-end ML project including model training, evaluation, and web deployment.
+To build and compare robust CNN models using TensorFlow and PyTorch for classification using image data. This forms part of a portfolio-ready end-to-end ML project including model training, evaluation, and web deployment.
 
 ---
 
@@ -33,17 +33,19 @@ To build and compare robust CNN models using TensorFlow and PyTorch for waste cl
 
 ```
 .
-├── tensorflow_training/     # TensorFlow training scripts
-├── pytorch_training/        # PyTorch training scripts
+├── TFTrain.py               # TensorFlow training script
+├── TFTest.py                # TensorFlow testing script
+├── TorchTrain.py            # PyTorch training script
+├── TorchTest.py             # PyTorch testing script
 ├── reports/                 # Confusion matrices and evaluation visuals
-├── best_model.keras         # Best TensorFlow model
-├── best_model.pth           # Best PyTorch model
 ├── Data/
 │   ├── train/
 │   ├── val/
 │   └── test/
 ├── requirements.txt         # Dependencies
-└── README.md
+├── README.md                
+└── LICENSE                  # MIT License
+
 ```
 
 ---
@@ -53,6 +55,7 @@ To build and compare robust CNN models using TensorFlow and PyTorch for waste cl
 * **TensorFlow**
 
   * Best Training Accuracy: **84.25%**, Training Loss: **0.5474**, Validation Accuracy: **83.0%**, Validation Loss: **0.5870**
+
 * **PyTorch**
 
   * Best Training Accuracy: **87.01%**, Training Loss: **0.3631**, Validation Accuracy: **87.1%**, Validation Loss: **0.3473**
@@ -100,7 +103,14 @@ Data/
 ├── val/
 └── test/
 ```
+* Note: If the Data doesn't have Validation or Test Data Sets, you can divide training Data Set using **Split.py** uploaded within **Data** folder. Rename the corresponding datasets in the code. 
 
+#### Example:
+```bash
+cd Data
+python Split.py ./path # Replace the ./path with your training dataset. Note that you shouldn't name the path as train, val or test to run the code.
+cd ..
+```
 ---
 
 ## Dependencies
