@@ -1,3 +1,4 @@
-Data
-bestmodel.pth
-bestmodel.keras
+Data/*/*
+Data/pred
+*.pth
+*.keras
