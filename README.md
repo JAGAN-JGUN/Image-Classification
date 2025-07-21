@@ -144,4 +144,4 @@ Created by **JAGAN-JGUN** for professional portfolio showcasing.
 For queries or collaboration:
 
 * GitHub: [JAGAN-JGUN](https://github.com/JAGAN-JGUN)
-* Email: [jaganjgun008@gmail.com](jaganjgun008@gmail.com)
+* Email: [jaganjgun008@gmail.com](mailto:jaganjgun008@gmail.com)
