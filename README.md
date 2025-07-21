@@ -65,13 +65,13 @@ To build and compare robust CNN models using TensorFlow and PyTorch for waste cl
 #### TensorFlow Model
 
 <div align="center">
-  <img src="TF.png" alt="TensorFlow Confusion Matrix" width="400"/>
+  <img src="reports/TF.png" alt="TensorFlow Confusion Matrix" width="400"/>
 </div>
 
 #### PyTorch Model
 
 <div align="center">
-  <img src="Torch.png" alt="PyTorch Confusion Matrix" width="400"/>
+  <img src="reports/Torch.png" alt="PyTorch Confusion Matrix" width="400"/>
 </div>
 
 ---
