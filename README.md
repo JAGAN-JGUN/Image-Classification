@@ -1,6 +1,6 @@
 # Image Classification - Model Training
 
-This repository contains the training pipeline for a **Intel Image classification** system using deep learning. It includes implementations in **both TensorFlow and PyTorch**, focusing on classifying images into categories such as buildings, forest, mountains etc.
+This repository contains the training pipeline for an **Intel Image classification** system using deep learning. It includes implementations in **both TensorFlow and PyTorch**, focusing on classifying images into categories such as buildings, forest, mountains etc.
 
 ---
 
