@@ -1,0 +1,7 @@
+bestmodel.hdf5
+Obdata/*
+!Obdata/readme.txt
+*.jpg
+*.JPG
+*.heic
+*.HEIC
