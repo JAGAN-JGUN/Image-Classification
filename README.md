@@ -52,7 +52,7 @@ To build and compare robust CNN models using TensorFlow and PyTorch for waste cl
 
 * **TensorFlow**
 
-  * Best Training Accuracy: **84.25%**  - Training Loss: **0.5474** , Validation Accuracy: **83.0%**, Validation Loss: **0.5870**
+  * Best Training Accuracy: **84.25%**, Training Loss: **0.5474**, Validation Accuracy: **83.0%**, Validation Loss: **0.5870**
 * **PyTorch**
 
   * Best Training Accuracy: **87.01%**, Training Loss: **0.3631**, Validation Accuracy: **87.1%**, Validation Loss: **0.3473**
