@@ -109,8 +109,8 @@ Data/
 pip install -r requirements.txt
 ```
 
-* TensorFlow ≥ 2.11
-* PyTorch ≥ 2.0
+* TensorFlow
+* PyTorch
 * matplotlib, seaborn, scikit-learn
 
 GPU acceleration is recommended if available.
