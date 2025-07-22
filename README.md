@@ -155,13 +155,13 @@ GPU acceleration is recommended if available.
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 The trained models from this repository are integrated into a **Flask-based Image Prediction API**, allowing you to interact with the models via a simple web interface or programmatically.
 
 You can try out the deployed models here:
 
-👉 [Image Prediction API Repository](https://github.com/JAGAN-JGUN/Image-Prediction-API)
+[Image Prediction API Repository](https://github.com/JAGAN-JGUN/Image-Prediction-API)
 
 The API supports both **TensorFlow** and **PyTorch** models and provides:
 
