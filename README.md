@@ -4,6 +4,24 @@ This repository contains the training pipeline for a **Intel Image classificatio
 
 ---
 
+## Intel Image Classification Dataset
+
+This dataset used here is provided by **Intel** and is designed for natural scene classification. It contains RGB images across 6 natural categories:
+
+* **Buildings**
+
+* **Forest**
+
+* **Glacier**
+
+* **Mountain**
+
+* **Sea**
+
+* **Street**
+
+---
+
 ## Objective
 
 To build and compare robust CNN models using TensorFlow and PyTorch for classification using image data. This forms part of a portfolio-ready end-to-end ML project including model training, evaluation, and web deployment.
@@ -134,6 +152,22 @@ GPU acceleration is recommended if available.
 * Clean modular design for reproducibility
 * Evaluation visualizations for clarity
 * Ready for deployment in Flask app
+
+---
+
+## 🌐 Deployment
+
+The trained models from this repository are integrated into a **Flask-based Image Prediction API**, allowing you to interact with the models via a simple web interface or programmatically.
+
+You can try out the deployed models here:
+
+👉 [Image Prediction API Repository](https://github.com/JAGAN-JGUN/Image-Prediction-API)
+
+The API supports both **TensorFlow** and **PyTorch** models and provides:
+
+- A web interface for image upload & prediction
+- REST API endpoint for programmatic access
+- Sample usage with unseen images for real-world testing
 
 ---
 

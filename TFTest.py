@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 model = load_model('bestmodel.keras')
 
 test_gen = image_dataset_from_directory(
-    "Data/val",
+    "Data/test",
     labels="inferred",
     label_mode="categorical",
     image_size=(150, 150),
@@ -34,12 +34,9 @@ cm = confusion_matrix(y_true_labels, y_pred)
 
 plt.figure(figsize=(10, 8))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
-            xticklabels=class_names, yticklabels=class_names,
-            cbar=False, linewidths=0.5, linecolor='gray')
+            xticklabels=class_names, yticklabels=class_names)
 plt.xlabel('Predicted Labels')
 plt.ylabel('True Labels')
 plt.title('Confusion Matrix')
-plt.xticks(rotation=45)
-plt.yticks(rotation=0)
 plt.tight_layout()
 plt.show()
